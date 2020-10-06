@@ -24,8 +24,14 @@ int PixelSpaceBuilder::buildPixelSpace() {
 
     MonitorsInfo monitorsInfo;
     std::cout << "You have " << monitorsInfo.MonitorRects.size() << " monitors connected.";
-    RECT i = *monitorsInfo.MonitorRects.begin();
-    std::cout << " Monitor 1 is " << (i.right - i.left) << " wide.";
+    auto i = monitorsInfo.MonitorRects.begin();
+    RECT display = *i;
+    std::cout << " Monitor 1 is " << (display.right - display.left) << " wide.";
+    std::cout << " Left is " << display.left << ". Right is " << display.right <<". \n";
+    display = *(i+1);
+    std::cout << "Monitor 2 is " << (display.right - display.left) << " wide.";
+    std::cout << " Left is " << display.left << ". Right is " << display.right;
+    SetCursorPos(2560, 0);
     return 0;
 }
 
