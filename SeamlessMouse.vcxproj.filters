@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Boundary Checker">
       <UniqueIdentifier>{fccc4658-de71-43a8-a759-f0c954623b8d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Pixel Space Builder">
+      <UniqueIdentifier>{f508aa94-993d-438d-8259-c76f3039a3b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\SeamlessMouse.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="src\BoundaryChecker\BoundaryChecker.cpp">
       <Filter>Source Files\Boundary Checker</Filter>
     </ClCompile>
+    <ClCompile Include="src\PixelSpaceBuilder\PixelSpaceBuilder.cpp">
+      <Filter>Source Files\Pixel Space Builder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BoundaryChecker\BoundaryChecker.h">
       <Filter>Source Files\Boundary Checker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PixelSpaceBuilder\PixelSpaceBuilder.h">
+      <Filter>Source Files\Pixel Space Builder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

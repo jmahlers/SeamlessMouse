@@ -1,17 +1,13 @@
 // SeamlessMouse.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
 #include <Windows.h>
-
+#include "PixelSpaceBuilder/PixelSpaceBuilder.h"
 // Just for debug purposes
 #include <iostream>
 
 int main()
 {
-    //std::cout << "Hello World!\n";
-    RECT rect = { 0 };
-    SetCursorPos(rect.right + 3000, rect.bottom + 500);
-
-    return 0;
+    PixelSpaceBuilder::buildPixelSpace();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -20,10 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\BoundaryChecker\BoundaryChecker.cpp" />
+    <ClCompile Include="src\PixelSpaceBuilder\PixelSpaceBuilder.cpp" />
     <ClCompile Include="src\SeamlessMouse.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BoundaryChecker\BoundaryChecker.h" />
+    <ClInclude Include="src\PixelSpaceBuilder\PixelSpaceBuilder.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
