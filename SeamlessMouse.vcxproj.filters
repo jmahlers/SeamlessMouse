@@ -13,30 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Boundary Checker">
-      <UniqueIdentifier>{fccc4658-de71-43a8-a759-f0c954623b8d}</UniqueIdentifier>
+    <Filter Include="Source Files\Monitor Transition Checker">
+      <UniqueIdentifier>{202e246e-34fd-4d02-8adb-705e24073a33}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Pixel Space Builder">
-      <UniqueIdentifier>{f508aa94-993d-438d-8259-c76f3039a3b8}</UniqueIdentifier>
+    <Filter Include="Source Files\PixelSpaceBuilder">
+      <UniqueIdentifier>{0dd03e37-83bf-41dc-88cf-9c7d89a11829}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\MonitorTransitionChecker\MonitorTransitionChecker.cpp">
+      <Filter>Source Files\Monitor Transition Checker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PixelSpaceBuilder\PixelSpaceBuilder.cpp">
+      <Filter>Source Files\PixelSpaceBuilder</Filter>
+    </ClCompile>
     <ClCompile Include="src\SeamlessMouse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\BoundaryChecker\BoundaryChecker.cpp">
-      <Filter>Source Files\Boundary Checker</Filter>
-    </ClCompile>
-    <ClCompile Include="src\PixelSpaceBuilder\PixelSpaceBuilder.cpp">
-      <Filter>Source Files\Pixel Space Builder</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\BoundaryChecker\BoundaryChecker.h">
-      <Filter>Source Files\Boundary Checker</Filter>
+    <ClInclude Include="src\MonitorTransitionChecker\MonitorTransitionChecker.h">
+      <Filter>Source Files\Monitor Transition Checker</Filter>
     </ClInclude>
     <ClInclude Include="src\PixelSpaceBuilder\PixelSpaceBuilder.h">
-      <Filter>Source Files\Pixel Space Builder</Filter>
+      <Filter>Source Files\PixelSpaceBuilder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

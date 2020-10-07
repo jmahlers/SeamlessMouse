@@ -3,7 +3,6 @@
 #include <iostream>
 #include "PixelSpaceBuilder.h"
 
-
 struct PixelSpaceBuilder::MonitorsInfo {
     //Rectangles of display's virtual screen coordinates
     std::vector<RECT> MonitorRects;
@@ -32,6 +31,11 @@ int PixelSpaceBuilder::buildPixelSpace() {
     std::cout << "Monitor 2 is " << (display.right - display.left) << " wide.";
     std::cout << " Left is " << display.left << ". Right is " << display.right;
     SetCursorPos(2560, 0);
+    return 0;
+}
+
+int PixelSpaceBuilder::buildRealSpace()
+{
     return 0;
 }
 

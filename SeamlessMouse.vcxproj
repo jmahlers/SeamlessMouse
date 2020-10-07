@@ -18,19 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\BoundaryChecker\BoundaryChecker.cpp" />
-    <ClCompile Include="src\PixelSpaceBuilder\PixelSpaceBuilder.cpp" />
-    <ClCompile Include="src\SeamlessMouse.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\BoundaryChecker\BoundaryChecker.h" />
-    <ClInclude Include="src\PixelSpaceBuilder\PixelSpaceBuilder.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{076c02cf-ed66-4c9b-b72e-e0905f4466f5}</ProjectGuid>
+    <ProjectGuid>{0bd388a7-22c3-4173-8ae8-96267fa670ae}</ProjectGuid>
     <RootNamespace>SeamlessMouse</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -147,6 +138,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MonitorTransitionChecker\MonitorTransitionChecker.cpp" />
+    <ClCompile Include="src\PixelSpaceBuilder\PixelSpaceBuilder.cpp" />
+    <ClCompile Include="src\SeamlessMouse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MonitorTransitionChecker\MonitorTransitionChecker.h" />
+    <ClInclude Include="src\PixelSpaceBuilder\PixelSpaceBuilder.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

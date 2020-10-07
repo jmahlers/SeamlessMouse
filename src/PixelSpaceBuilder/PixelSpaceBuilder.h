@@ -2,6 +2,7 @@
 
 namespace PixelSpaceBuilder
 {
-	int buildPixelSpace();
 	struct MonitorsInfo;
+	int buildPixelSpace();
+	int buildRealSpace();
 }
